@@ -10,12 +10,6 @@ using Distributed
 @everywhere using JuMP, DataFrames, LinearAlgebra, Random, Statistics, CSV
 pwd()
 
-# cd(nwspace);
-# dirSim = "/Users/devendrashelar/Dropbox (MIT)/Power Conference Paper/Code (Julia)/Simulations/";
-# resultsFolder = "/Users/devendrashelar/Dropbox (MIT)/Power Conference Paper/Paper Submission/figures/"
-resultsFolder = "C:\\Users\\Derek\\Dropbox (MIT)\\SmartGridComm\\Paper submission\\figures\\";
-# resultsFolder = "/Users/changd/Dropbox (MIT)/SmartGridComm/Paper submission/figures/"
-
 @everywhere begin
     global resourceResponse = false;
     global deltaV0min = 0;
